@@ -1,19 +1,19 @@
 import * as React from "react"
 import { ChakraProvider, theme } from "@chakra-ui/react"
 import { Layout } from "./pages/navigation/Layout"
-import { Home } from "./pages/home/Home"
 import { About } from "./pages/about/About"
-import { TimeLine } from "./pages/timeline/TimeLine"
-import { Publications } from "./pages/publications/Publications"
+import { Education } from "./pages/education/Education"
+import { Skills } from "./pages/skills/Skills"
 import { Projects } from "./pages/projects/Projects"
+import { Publications } from "./pages/publications/Publications"
 import { Contact } from "./pages/contact/Contact"
 
 export const App = () => (
   <ChakraProvider theme={theme}>
         <Layout>
-          <Home/>
           <About/>
-          <TimeLine/>
+          <Education/>
+          <Skills/>
           <Projects/>
           <Publications/>
           <Contact/>

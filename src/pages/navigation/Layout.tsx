@@ -2,7 +2,7 @@ import { ReactNode } from "react"
 import { Footer } from "./Footer"
 import { Navigation } from "./Navigation"
 
-const Links = ['Home', 'About', 'TimeLine', 'Projects', 'Publications'];
+const Links = ['About', 'Education', 'Skills', 'Projects', 'Publications', 'Contact'];
 
 export const Layout = ({ children }: { children: ReactNode }) => {
     return (
